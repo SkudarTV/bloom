@@ -1,0 +1,25 @@
+{
+    "name": "user/mymigration",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lukas OTERO--MELEDO",
+            "email": "lukas@projectheberg.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/skudarTV/bloomFramework.git"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "skudartv/bloomframework": "master"
+    }
+}
