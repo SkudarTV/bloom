@@ -1,8 +1,9 @@
 {
-    "name": "user/mymigration",
+    "name": "skudartv/bloom",
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "Database\\Seeder\\": "database/seeders"
         }
     },
     "authors": [
@@ -20,6 +21,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "skudartv/bloomframework": "master"
+        "skudartv/bloomframework": "dev-dev"
     }
 }
